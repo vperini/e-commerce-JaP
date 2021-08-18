@@ -1,0 +1,52 @@
+
+    html, body{
+      height: 100%;
+    }
+
+    body {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #f5f5f5;
+    }
+
+
+    .signin {
+      width: 100%;
+      max-width: 330px;
+      padding: 15px;
+      margin: auto;
+    }
+
+h1{
+    color: #103242;
+    font-weight: normal;
+    align-content: center;
+    font-size:x-large;
+}
+
+.login .logo {
+    width: 500px;
+    height: auto;
+}
+
+form {
+    position: relative;
+    font-size:large;
+    padding: 10px;
+    margin: auto;
+}
+
+label {
+    padding: 8px;
+}
+
+.data {
+    width: 20%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}

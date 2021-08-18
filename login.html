@@ -13,37 +13,25 @@
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
-  <style>
-    html, body{
-      height: 100%;
-    }
-
-    body {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-align: center;
-      align-items: center;
-      padding-top: 40px;
-      padding-bottom: 40px;
-      background-color: #f5f5f5;
-    }
-
-    .signin {
-      width: 100%;
-      max-width: 330px;
-      padding: 15px;
-      margin: auto;
-    }
-  </style>
+  <link rel="stylesheet" href= "css\style_login.css" >
+  
 </head>
 
 <body class="text-center">
   <div class="container p-5">
-    <div class="alert alert-danger" role="alert" style="position: relative; width:auto; top: 0;">
-      <h4 class="alert-heading">¡A trabajar! :)</h4>
-      <p>Esta sección corresponde a: Entrega 1 (Fecha de entrega: 08/08/2021).</p>
-      <hr>
-      <p class="mb-0">Para saber qué debes hacer, fijate en la actividad en CREA correspondiente a esta entrega.</p>
+    <div class="login">
+      <img class="logo" src="img/login.png" alt="logo">
+      <h1> Hola! Por favor, registrate</h1>
+      <form>
+       <p>Usuario</p>
+       <input class="data" type="text" id="nombre" required name="nombre" value=""><br>
+       <p>Contraseña</p>
+       <input class="data" type="password"  id="Contraseña" required name="contraseña" value=""><br>
+       <label>
+        <input type="checkbox" value="Recuérdame"> Recuérdame
+      </label><br>
+        <button class="btn btn-primary btn-lg" type="submit" id="submit" value="Aceptar">Ingresar</button>
+        </form>
     </div>
   </div>
 
